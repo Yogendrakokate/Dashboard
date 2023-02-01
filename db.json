@@ -1,173 +1,176 @@
-[
-   "DeviseList": {
-        "friendly_name": "John Doe's device",
-        "registration_date_time": "2022-12-01T12:00:00",
-        "location": "New York, NY",
-        "connection_date_time": "2022-12-01T12:15:00",
-        "battery_percentage": 70,
+
+{"DeviseList":[
+  {
+      "friendly_name": "John Doe's device",
+      "registration_date_time": "2022-12-01T12:00:00",
+      "location": "New York, NY",
+      "connection_date_time": "2022-12-01T12:15:00",
+      "battery_percentage": 70,
+      "panic": "No",
+      "emergency_contact_number": "+1 212 555 1234",
+      "shared_device": "iPhone 12 Pro Max",
+      "shared_by_user_details": {
+          "name": "Jane Doe",
+          "email": "jane.doe@example.com"
+      }
+  },
+  {
+      "friendly_name": "Jane Doe's device",
+      "registration_date_time": "2022-11-01T12:00:00",
+      "location": "San Francisco, CA",
+      "connection_date_time": "2022-11-01T12:15:00",
+      "battery_percentage": 50,
+      "panic": "Yes",
+      "emergency_contact_number": "+1 415 555 1234",
+      "shared_device": "Samsung Galaxy S21 Ultra",
+      "shared_by_user_details": {
+          "name": "John Doe",
+          "email": "john.doe@example.com"
+      }
+  },
+  {
+      "friendly_name": "Alex Smith's device",
+      "registration_date_time": "2022-10-01T12:00:00",
+      "location": "London, UK",
+      "connection_date_time": "2022-10-01T12:15:00",
+      "battery_percentage": 90,
+      "panic": "No",
+      "emergency_contact_number": "+44 20 555 1234",
+      "shared_device": "OnePlus 9 Pro",
+      "shared_by_user_details": {
+          "name": "Emma Watson",
+          "email": "emma.watson@example.com"
+      }
+  },
+  {
+      "friendly_name": "Emma Watson's device",
+      "registration_date_time": "2022-09-01T12:00:00",
+      "location": "Paris, France",
+      "connection_date_time": "2022-09-01T12:15:00",
+      "battery_percentage": 40,
+      "panic": "Yes",
+      "emergency_contact_number": "+33 1 555 1234",
+      "shared_device": "Google Pixel 6 Pro",
+      "shared_by_user_details": {
+          "name": "Alex Smith",
+          "email": "alex.smith@example.com"
+      }
+  },
+  {
+      "friendly_name": "Michael Johnson's device",
+      "registration_date_time": "2022-08-01T12:00:00",
+      "location": "Toronto, Canada",
+      "connection_date_time": "2022-08-01T12:15:00",
+      "battery_percentage": 80,
         "panic": "No",
-        "emergency_contact_number": "+1 212 555 1234",
-        "shared_device": "iPhone 12 Pro Max",
-        "shared_by_user_details": {
-            "name": "Jane Doe",
-            "email": "jane.doe@example.com"
-        }
-    },
-    {
-        "friendly_name": "Jane Doe's device",
-        "registration_date_time": "2022-11-01T12:00:00",
-        "location": "San Francisco, CA",
-        "connection_date_time": "2022-11-01T12:15:00",
-        "battery_percentage": 50,
-        "panic": "Yes",
-        "emergency_contact_number": "+1 415 555 1234",
-        "shared_device": "Samsung Galaxy S21 Ultra",
-        "shared_by_user_details": {
-            "name": "John Doe",
-            "email": "john.doe@example.com"
-        }
-    },
-    {
-        "friendly_name": "Alex Smith's device",
-        "registration_date_time": "2022-10-01T12:00:00",
-        "location": "London, UK",
-        "connection_date_time": "2022-10-01T12:15:00",
-        "battery_percentage": 90,
-        "panic": "No",
-        "emergency_contact_number": "+44 20 555 1234",
-        "shared_device": "OnePlus 9 Pro",
-        "shared_by_user_details": {
-            "name": "Emma Watson",
-            "email": "emma.watson@example.com"
-        }
-    },
-    {
-        "friendly_name": "Emma Watson's device",
-        "registration_date_time": "2022-09-01T12:00:00",
-        "location": "Paris, France",
-        "connection_date_time": "2022-09-01T12:15:00",
-        "battery_percentage": 40,
-        "panic": "Yes",
-        "emergency_contact_number": "+33 1 555 1234",
-        "shared_device": "Google Pixel 6 Pro",
-        "shared_by_user_details": {
-            "name": "Alex Smith",
-            "email": "alex.smith@example.com"
-        }
-    },
-    {
-        "friendly_name": "Michael Johnson's device",
-        "registration_date_time": "2022-08-01T12:00:00",
-        "location": "Toronto, Canada",
-        "connection_date_time": "2022-08-01T12:15:00",
-        "battery_percentage": 80,
-          "panic": "No",
-    "emergency_contact_number": "+1 416 555 1234",
-    "shared_device": "Huawei Mate 40 Pro",
-    "shared_by_user_details": {
-        "name": "Sarah Johnson",
-        "email": "sarah.johnson@example.com"
-    }
-  },
-  {
-    "friendly_name": "Sarah Johnson's device",
-    "registration_date_time": "2022-07-01T12:00:00",
-    "location": "Berlin, Germany",
-    "connection_date_time": "2022-07-01T12:15:00",
-    "battery_percentage": 60,
-    "panic": "Yes",
-    "emergency_contact_number": "+49 30 555 1234",
-    "shared_device": "iPad Pro 2022",
-    "shared_by_user_details": {
-        "name": "Michael Johnson",
-        "email": "michael.johnson@example.com"
-    }
-  },
-  {
-    "friendly_name": "David Wilson's device",
-    "registration_date_time": "2022-06-01T12:00:00",
-    "location": "Sydney, Australia",
-    "connection_date_time": "2022-06-01T12:15:00",
-    "battery_percentage": 75,
-    "panic": "No",
-    "emergency_contact_number": "+61 2 555 1234",
-    "shared_device": "MacBook Pro 16-inch",
-    "shared_by_user_details": {
-        "name": "Amy Wilson",
-        "email": "amy.wilson@example.com"
-    }
-  },
-  {
-    "friendly_name": "Amy Wilson's device",
-    "registration_date_time": "2022-05-01T12:00:00",
-    "location": "Singapore",
-    "connection_date_time": "2022-05-01T12:15:00",
-    "battery_percentage": 65,
-    "panic": "Yes",
-    "emergency_contact_number": "+65 2 555 1234",
-    "shared_device": "Microsoft Surface Laptop 4",
-    "shared_by_user_details": {
-        "name": "David Wilson",
-        "email": "david.wilson@example.com"
-    }
-  },
-  {
-    "friendly_name": "Tom Anderson's device",
-    "registration_date_time": "2022-04-01T12:00:00",
-    "location": "Tokyo, Japan",
-    "connection_date_time": "2022-04-01T12:15:00",
-    "battery_percentage": 95,
-    "panic": "No",
-    "emergency_contact_number": "+81 3 555 1234",
-    "shared_device": "Dell XPS 17",
-    "shared_by_user_details": {
-        "name": "Lily Anderson",
-        "email": "lily.anderson@example.com"
-    }
-  },
-  {
-        "friendly_name": "Lily Anderson's device",
-    "registration_date_time": "2022-03-01T12:00:00",
-    "location": "London, UK",
-    "connection_date_time": "2022-03-01T12:15:00",
-    "battery_percentage": 70,
-    "panic": "Yes",
-    "emergency_contact_number": "+44 20 555 1234",
-    "shared_device": "Google Pixel 6",
-    "shared_by_user_details": {
-        "name": "Tom Anderson",
-        "email": "tom.anderson@example.com"
-    }
-  },
-  {
-    "friendly_name": "Anna Smith's device",
-    "registration_date_time": "2022-02-01T12:00:00",
-    "location": "Paris, France",
-    "connection_date_time": "2022-02-01T12:15:00",
-    "battery_percentage": 80,
-    "panic": "No",
-    "emergency_contact_number": "+33 1 555 1234",
-    "shared_device": "Samsung Galaxy S21",
-    "shared_by_user_details": {
-        "name": "John Smith",
-        "email": "john.smith@example.com"
-    }
-  },
-  {
-    "friendly_name": "John Smith's device",
-    "registration_date_time": "2022-01-01T12:00:00",
-    "location": "Toronto, Canada",
-    "connection_date_time": "2022-01-01T12:15:00",
-    "battery_percentage": 85,
-    "panic": "Yes",
-    "emergency_contact_number": "+1 416 555 1234",
-    "shared_device": "Apple MacBook Air M2",
-    "shared_by_user_details": {
-        "name": "Anna Smith",
-        "email": "anna.smith@example.com"
-    }
+  "emergency_contact_number": "+1 416 555 1234",
+  "shared_device": "Huawei Mate 40 Pro",
+  "shared_by_user_details": {
+      "name": "Sarah Johnson",
+      "email": "sarah.johnson@example.com"
   }
+},
+{
+  "friendly_name": "Sarah Johnson's device",
+  "registration_date_time": "2022-07-01T12:00:00",
+  "location": "Berlin, Germany",
+  "connection_date_time": "2022-07-01T12:15:00",
+  "battery_percentage": 60,
+  "panic": "Yes",
+  "emergency_contact_number": "+49 30 555 1234",
+  "shared_device": "iPad Pro 2022",
+  "shared_by_user_details": {
+      "name": "Michael Johnson",
+      "email": "michael.johnson@example.com"
+  }
+},
+{
+  "friendly_name": "David Wilson's device",
+  "registration_date_time": "2022-06-01T12:00:00",
+  "location": "Sydney, Australia",
+  "connection_date_time": "2022-06-01T12:15:00",
+  "battery_percentage": 75,
+  "panic": "No",
+  "emergency_contact_number": "+61 2 555 1234",
+  "shared_device": "MacBook Pro 16-inch",
+  "shared_by_user_details": {
+      "name": "Amy Wilson",
+      "email": "amy.wilson@example.com"
+  }
+},
+{
+  "friendly_name": "Amy Wilson's device",
+  "registration_date_time": "2022-05-01T12:00:00",
+  "location": "Singapore",
+  "connection_date_time": "2022-05-01T12:15:00",
+  "battery_percentage": 65,
+  "panic": "Yes",
+  "emergency_contact_number": "+65 2 555 1234",
+  "shared_device": "Microsoft Surface Laptop 4",
+  "shared_by_user_details": {
+      "name": "David Wilson",
+      "email": "david.wilson@example.com"
+  }
+},
+{
+  "friendly_name": "Tom Anderson's device",
+  "registration_date_time": "2022-04-01T12:00:00",
+  "location": "Tokyo, Japan",
+  "connection_date_time": "2022-04-01T12:15:00",
+  "battery_percentage": 95,
+  "panic": "No",
+  "emergency_contact_number": "+81 3 555 1234",
+  "shared_device": "Dell XPS 17",
+  "shared_by_user_details": {
+      "name": "Lily Anderson",
+      "email": "lily.anderson@example.com"
+  }
+},
+{
+      "friendly_name": "Lily Anderson's device",
+  "registration_date_time": "2022-03-01T12:00:00",
+  "location": "London, UK",
+  "connection_date_time": "2022-03-01T12:15:00",
+  "battery_percentage": 70,
+  "panic": "Yes",
+  "emergency_contact_number": "+44 20 555 1234",
+  "shared_device": "Google Pixel 6",
+  "shared_by_user_details": {
+      "name": "Tom Anderson",
+      "email": "tom.anderson@example.com"
+  }
+},
+{
+  "friendly_name": "Anna Smith's device",
+  "registration_date_time": "2022-02-01T12:00:00",
+  "location": "Paris, France",
+  "connection_date_time": "2022-02-01T12:15:00",
+  "battery_percentage": 80,
+  "panic": "No",
+  "emergency_contact_number": "+33 1 555 1234",
+  "shared_device": "Samsung Galaxy S21",
+  "shared_by_user_details": {
+      "name": "John Smith",
+      "email": "john.smith@example.com"
+  }
+},
+{
+  "friendly_name": "John Smith's device",
+  "registration_date_time": "2022-01-01T12:00:00",
+  "location": "Toronto, Canada",
+  "connection_date_time": "2022-01-01T12:15:00",
+  "battery_percentage": 85,
+  "panic": "Yes",
+  "emergency_contact_number": "+1 416 555 1234",
+  "shared_device": "Apple MacBook Air M2",
+  "shared_by_user_details": {
+      "name": "Anna Smith",
+      "email": "anna.smith@example.com"
+  }
+}
 ]
 
-   
+}
 
+
+  
